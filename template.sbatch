@@ -10,5 +10,7 @@
 
 module purge
 module load r/gcc/4.5.0
+module load python/intel/3.8.6
 
 Rscript your-script.R
+python ~/notify_slack.py 'Dear Mr. President, there are too many states nowadays. Please eliminate three. P.S. I am not a crackpot.'
