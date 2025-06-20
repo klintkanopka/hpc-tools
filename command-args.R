@@ -1,3 +1,5 @@
+# a code snippet for how pull commandline args into your R script
+
 tmp <- commandArgs(trailingOnly = TRUE)
 
 plot_type <- tmp[1]
